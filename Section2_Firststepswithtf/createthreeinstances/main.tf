@@ -9,7 +9,7 @@ resource "aws_instance" "firstdemo" {
 
 
 
-  tags {
+  tags = {
 
     Name = "threedemoinstance-${count.index}"
 
