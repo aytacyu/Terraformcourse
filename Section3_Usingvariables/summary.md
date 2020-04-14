@@ -1,15 +1,15 @@
-#Interactive prompting
+# Interactive prompting
 
 variable "ami-type"{
 }
 
-##Passing through a file
+## Passing through a file
 
 variable "ami-type"{
 default = "ami-92291j2k"
 }
 
-###Passing inline
+### Passing inline
 
 terraform apply -var amitype="ami-9212323"
 
