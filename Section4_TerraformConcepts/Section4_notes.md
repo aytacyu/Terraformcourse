@@ -9,7 +9,7 @@ availability_zone = data.aws_availability_zones.available.names[0]
 availability_zones      = [data.aws_availability_zones.available.names]
 ```
 ## Terraform Graph
-`terraform graph` : Visual graph for dependencies
+`terraform graph` : Visual graph for dependencies  
 `apt install graphviz` & `terraform graph | dot -Tpng > graph.png` : create png file for visual dependency tree
 ## Output
 to retrieve a value from for later usage:
